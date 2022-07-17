@@ -1,0 +1,4 @@
+->Arrays
+
+While creating arrays use [] instead of {}
+and no need to write [] after array variable

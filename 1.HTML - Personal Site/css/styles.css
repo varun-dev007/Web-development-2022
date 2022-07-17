@@ -1,0 +1,25 @@
+body {
+  background-image:url("https://wallpapercave.com/dwp1x/8mvH9lN.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+hr {
+  background-color: #DFF6FF;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 10px;
+  border-radius:20px;
+  width: 5%;
+}
+
+h1{
+  color:white;
+  background-color:black;
+  width:30%;
+}
+
+h3{
+  color:green;
+}

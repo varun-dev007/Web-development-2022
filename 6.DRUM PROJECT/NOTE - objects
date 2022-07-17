@@ -1,0 +1,70 @@
+housekeeper is an object
+
+//CREATING NEW VARIABLE EACH TIME
+var housekeeper =
+{
+yearsOfExperience: 12,
+name: "Jane",
+cleaningExperience: ["bathroom","kitchen"]
+}
+
+console.log(housekeeper)
+VM716:1 {yearsOfExperience: 12, name: 'Jane', cleaningExperience: Array(2)}
+undefined
+
+
+//CREATING A CONSTRUCTOR FUNCTION and OBJECT
+//NOTE THAT FUNCTION NAME STARTS WITH CAPITAL LETTER
+
+function House(a,b,c)
+{
+this.a=a;
+this.b=b;
+this.c=c;
+}
+
+var room=new House(12,23,34);
+console.log(room);
+House {a: 12, b: 23, c: 34}
+
+//HOW TO CREATE AN object
+var housekeeper =
+{
+yearsOfExperience: 12,
+name: "Jane",
+cleaningExperience: ["bathroom","kitchen"]
+}
+
+//HOW TO CREATE A CONSTRUCTOR FUNCTION
+*constructor function is basically the one which can except function as input
+*but constructor function can also be used to create its objects
+function worker(years,sal,bonus)
+{
+    this.years=years;
+    this.sal=sal;
+    this.bonus=bonus;
+
+    this.funcvar = function ()
+    {
+        alert("Hey we  are here....!");
+    }
+
+}
+
+var obj=new worker(1,3,5);
+obj.funcvar();
+
+//Creating a member FUNCTION inside an object
+memberFunctionName:function()
+{
+
+}
+
+//Creating constructorFunction inside a constructor function
+this.memberConstructorFunctionName:function()
+{
+
+}
+
+//Calling a member FUNCTION
+object.function();

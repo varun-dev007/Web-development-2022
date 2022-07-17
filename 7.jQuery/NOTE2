@@ -1,0 +1,36 @@
+attr is used to access attributes of HTML tags
+
+//To get the source of an image
+console.log($("a").attr("src"))
+
+
+//To chanage the href of an image
+$("a").attr("src","www.yahoo.com")
+
+
+//To add eventListener
+//For example:
+$("h1").click(function()
+{
+$("body").css("background-color","red");
+})
+
+
+//Flexible way to add an event eventListener
+is using on
+$("h1").on("click",function()
+{
+$("body").css("background-color","red");
+})
+
+
+
+//using before, after, prepend and remove , we can add and remove tags respectively
+
+before - places above
+after - places below
+prepend - places just before
+append - just text
+
+Ex:
+$("h1").before("Bloody......!");

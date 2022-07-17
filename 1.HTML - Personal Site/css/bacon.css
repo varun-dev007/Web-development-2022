@@ -1,0 +1,51 @@
+h1
+{
+color: black;
+font-size:200px;
+}
+
+
+body{
+
+  background: linear-gradient(180deg, black,violet);
+}
+
+
+p{
+
+color: green;
+ font-family:cursive;
+  font-size:40px;
+}
+
+.bacon{
+
+  height:15%;
+  width:10%;
+  background-color:red;
+}
+
+.bacon:hover{
+
+  background-color:gold;
+}
+
+#heading
+{
+
+  color: blue;
+
+}
+
+#heading:hover
+{
+
+  color: red;
+
+}
+
+<!-- hover is  a pseudo class hence we use : -->
+
+< !-- id are unique whereas class can be reused -->
+<!--Example passwords -->
+<!-- there can be more than 1 class but only one id>

@@ -1,0 +1,51 @@
+->document; = this shows the entire code
+->document.firstElementChild.firstElementChild;
+->document.lastElementChild.lastElementChild;
+
+*
+var heading=document.lastElementChild.firstElementChild;
+heading.innerHTML="Hello world";
+heading.style.color="red";
+
+*
+document.querySelector("input").click();
+->This targets an object of type "input" using querySelector
+
+
+*
+Objects have properties and methods
+-properties describe how the objects is
+-methods describe what an object can do
+
+*
+car.color="red";
+-here car is object
+-colour is property
+. is a getter
+
+*
+car.method();
+
+
+*document.getElementsByTagName("li");
+*document.getElementsByTagName("li")[2].style.color="red";
+*document.getElementsByTagName("li").length;
+
+*document.getElementById()[];
+*doucment.getElementsByClassName()[];
+*document.querySelector("h1");
+*document.querySelector("#id");
+*document.querySelector(".class");
+*document.querySelectorAll()[];
+
+
+HIERARCHIAL querySelector
+Inside query selector we can target a tag or anything
+
+
+->The property name in javascript can be different from that of class
+1.There are no dashes
+2.The first letter of second word is capitalised
+3.Values are capitalised
+Ex:
+document.querySelector(".btn").style.backgroundColor="yellow";

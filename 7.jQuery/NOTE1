@@ -1,0 +1,33 @@
+jQuery is completely written in vanilla javascript
+
+$("h1") - is similar to - document.querySelectorAll("h1");
+
+//We could change the style of h1 like
+$("h1").css("font-size","5rem")
+//But this is dirty as we are styling in javascript
+
+
+//So better way to do it
+//Lets create a class say .pager and write its properties in css then
+
+//To add
+$("h1").addClass("pager");
+
+//To add multiple class
+$("h1").addClass("pager1 pager2");
+
+//To see all class list
+$("h1").classList();
+
+//To delete any class list
+$("h1").removeClass("pager");
+
+
+//To check whether an object ahas a class
+$("h1").hasClass("pager");
+
+//textContent analogue
+$("h1").text("Bye");
+
+//innerHtml analogue
+$("h1").HTML("<em>BYE</em>")

@@ -1,0 +1,26 @@
+STRICTLY FOLLOW:
+
+HTML - only for structure
+CSS - only for decoration
+Javascript - for functions
+
+->
+document.querySelector("button").classList;
+ this will provide all the classes available with buttons
+document.querySelector("button").classList.add("invisible"); -
+this will add invisible class with button
+
+->
+we can add,remove and toggle a class name
+
+
+->innerHTML; and textContent; have differences
+1.innerHTML, we can target even the style of text, whether
+em or i
+2.textContent, we can only target what the text is and not the
+style.
+
+-><a> by using this tag we learnt the property of attributes
+1.document.querySelector("a").attributes();
+2.document.querySelector("a").getAttribute("href");
+3.document.querySelector("a").setAttribute("href",website URL);

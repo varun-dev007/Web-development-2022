@@ -1,0 +1,46 @@
+..............................NODE RIPPLE..............................
+
+->We can create a file using
+$touch index.js
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+->We can open a file just by typing the fileNamw
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+->using
+node index.js
+We can create like a console in terminal
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+->Node has it own repple
+By typing $node
+we open the node repple
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+->To know all the commands that are present
+$con+tab(once or twice)
+we can understand all the commands that we can use
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+->By clicking ctrl+c twice we can exit from the current operation
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+......................How to use the modules............................
+
+const fs=12;
+this is going to keep the fs value constant
+
+in order to call any module we need to use the require() function
+Ex:
+const fs=feature(fs);
+
+.....................NPM=node Package Manager...........................
+
+->npm init
+opens a wizard

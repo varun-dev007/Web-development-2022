@@ -1,0 +1,21 @@
+//Pre built animation libraries
+
+show() - hide()
+or toggle()  -  we can toggle between show and hide
+
+
+fadeIn() - fadeOut()
+or fadeToggle()  - we can toggle between fading in and out
+
+slideUp(), slideDown(), slideToggle()
+
+
+//Custom animation
+
+//Things to be noted while using animate({})
+1.Only numbered attributes can chanage2.Meaning u cant change color
+
+$("button").click(function()
+{
+$("h1").animate({opacity:0.5;})
+})

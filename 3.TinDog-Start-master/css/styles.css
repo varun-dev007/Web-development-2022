@@ -1,0 +1,207 @@
+body{
+  font-family:"Montserrat";
+}
+
+#title
+{
+  background-color:#ff4c68;
+  color: white;
+  padding-bottom:2px;
+}
+
+
+h1
+{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700;
+  font-size:3rem;
+  line-height: 1.5;
+}
+
+.container-fluid
+{
+  padding :2% 15% 10% 15% ;
+}
+
+.navbar
+{
+  margin: 0% 15%;
+  padding:0 7%;
+  width:70%;
+  margin-bottom:5%;
+}
+
+.navbar-brand
+{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight:bold;
+  font-size:3.5rem;
+}
+
+.nav-link
+{
+  margin:12px 28px;
+}
+
+.title-bt
+{
+  padding-top:2.5rem;
+}
+
+.row-6
+{
+  padding:3% 15%;
+  margin-left:40px;
+  font-family:'Montserrat', sans-serif;
+  font-weight:900;
+}
+
+.image
+{
+  transform: rotate(25deg);
+  width: 50%;
+  margin-left:15%;
+  position:absolute;
+  z-index:1;
+}
+
+#features
+{
+  padding:7% 15%;
+  background-color:#fff;
+  position:relative;
+}
+
+
+.feature-box
+{
+  text-align:center;
+  padding:7%;
+}
+
+i{
+  size:20%;
+}
+
+.feature-h3
+{
+  font-family:"Montserrat Alternates";
+  font-size: 1.5rem;
+}
+
+p
+{
+  color:#8f8f8f;
+}
+
+.icon
+{
+  color:#ef8172;
+}
+
+.icon:hover
+{
+  color:#ff4c68;
+}
+
+
+#testimonial-carousel
+{
+  text-align:center;
+  padding:7% 15%;
+  background-color:#EC9B3B;
+  color:#fff;
+  font-family:'Montserrat Alternates', sans-serif;
+}
+
+.testimonial-img
+{
+  width:17%;
+  border-radius:100%;
+}
+
+#press
+{
+  background-color:#EC9B3B;
+  text-align:center;
+  padding-bottom:3%;
+}
+
+.press-logo
+{
+  width:15%;
+  margin:10px 20px 50px 15px;
+}
+
+.card
+{
+  text-align:center;
+}
+
+.price
+{
+ text-align:center;
+ padding:7% 15%;
+}
+
+.plans{
+  font-family:'Montserrat Alternates';
+
+}
+
+.plan-para
+{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#cta
+{
+  text-align:center;
+  background-color:#ff4c68;
+  padding:7% 15%;
+}
+
+h3
+{
+  text-align:center;
+}
+
+.h3
+{
+  margin:12%;
+  padding-bottom:5%;
+  text-align:center;
+  width:80%;
+  color:#fff;
+
+}
+
+.btn
+{
+ margin:0 1.5%;
+}
+
+#footer
+{
+  background-color:#fff;
+  text-align:center;
+  padding:3% 15%;
+}
+
+.fa-brands
+{
+  margin: 0 1%;
+}
+@media (max-width:1000px)
+{
+  #title
+  {
+    text-align:center;
+  }
+
+  .image
+  {
+    position:static;
+    transform:rotate(0);
+  }
+}

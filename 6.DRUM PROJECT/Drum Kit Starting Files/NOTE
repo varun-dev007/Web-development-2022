@@ -1,0 +1,39 @@
+FUNCTIONS which can take another function as input are called higher order function
+
+
+Ex:
+function add( n1, n2)
+{
+return n1+n2;
+}
+
+function sub( n1, n2)
+{
+return n1-n2;
+}
+
+function mul( n1, n2)
+{
+return n1*n2;
+}
+
+function call( n1, n2,operator)
+{
+return operator(n1,n2);
+}
+call(3,5,mul);
+15
+
+here call is a higher order function
+
+*By typing
+debugger
+debugger
+call(3,5,mul);
+
+we can understand the control flow
+
+
+
+
+->Audi Element<Media Element
