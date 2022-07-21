@@ -1,0 +1,12 @@
+cd OneDrive/Desktop/'OPERATION MAMBA'/Bootcamp/'Web development'/CLI/my-express-server/
+
+We can start a package using
+
+To set up new NPM package
+npm server.js
+
+After that
+node server.js
+
+This is highly repeatative process, hence we can use
+nodemon server.js
